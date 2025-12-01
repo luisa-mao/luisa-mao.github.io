@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Luisa Mao">
+
+  <title>Luisa Mao</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;
+        border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr>
+        <td>
+
+          <!-- TOP SECTION: NAME + BIO + PHOTO -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;
+                margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <!-- LEFT SIDE: TEXT -->
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    Luisa Mao
+                  </p>
+                  <p>
+                    I am a researcher interested in robot learning, reinforcement learning, and
+                    visuomotor policies. I am a member of the <a  href="https://amrl.cs.utexas.edu">Autonomous Mobile Robotics Lab (AMRL)</a>,
+                     and am advised by <a href="https://www.joydeepb.com">Dr. Joydeep Biwas</a> and <a href = "https://www.cs.utexas.edu/~pstone/">Dr. Peter Stone</a>
+                    at the University of Texas at Austin.
+                  </p>
+
+                  <p>
+                    My current interests are in vision-based control policies for humanoid robots. I have interned on the Optimus AI team at Tesla,
+                    and am currently working on research into humanoid soccer for the the RoboCup Soccer competition.
+                  </p>
+
+                  <p style="text-align:center">
+                    <a href="mailto:luisa.mao@utexas.edu">Email</a> &nbsp;/&nbsp;
+                    <a href="documents/Luisa_Mao_CV.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scholar.google.com/citations%3Fuser%3D-ha-38IAAAAJ%26hl%3Den&ved=2ahUKEwiXrNX-0ZqRAxWy1fACHQMOGl0QFnoECB8QAQ&usg=AOvVaw3DPctxqQu5hHCHBYhnNaPR">Scholar</a> &nbsp;/&nbsp;
+                    <a href="broken">GitHub</a>
+                  </p>
+                </td>
+
+                <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/target_following_4x.mp4">
+                    <video
+                    src="images/target_following_4x.mp4"
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;">
+                    </video>
+                </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- RESEARCH SECTION -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;
+                margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:16px;width:100%;vertical-align:middle">
+                  <h2>Research</h2>
+                  <p>
+                    My past research has focused on robot learning 
+                    and learning from human preferences
+                    for vision-based navigation and localization.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- RESEARCH LIST -->
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;
+                margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <!-- PAPER 1 -->
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="paper-thumb">
+                    <img src="images/spacer_img1.png" alt="main preview">
+                    <img class="overlay" src="images/spacer_img2.png" alt="hover overlay">
+                </div>
+                </td>
+
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <span class="papertitle">Terrain Costmap Generation via Scaled Preference Conditioning</span>
+                  <br><b>Luisa Mao</b>, Garrett Warnell, Peter Stone, Joydeep Biswas<br>
+                  <em>RA-L (submitted)</em>, 2026<br>
+                  <a href="https://www.arxiv.org/abs/2511.11529">PDF</a>
+                  <!-- <a href="#">Code</a> -->
+                  <p></p>
+                  <p>
+                    Building on prior work in learning from human preferences, we propose a more expressive method for generating terrain costmaps.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- PAPER 2 -->
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="paper-thumb">
+                    <img src="images/pacer_img1.png" alt="main preview">
+                    <img class="overlay" src="images/pacer_img2.png" alt="hover overlay">
+                </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <span class="papertitle">PACER: Preference-conditioned All-terrain Costmap Generation</span>
+                  <br><b>Luisa Mao</b>, Garrett Warnell, Peter Stone, Joydeep Biswas<br>
+                  <em>RA-L</em>, 2025<br>
+                  <a href="https://arxiv.org/abs/2410.23488">PDF</a> /
+                  <a href="https://github.com/ut-amrl/PACER_RAL_2025">Code</a>
+                  <p></p>
+                  <p>
+                    PACER is a novel method for generating all-terrain costmaps conditioned on human preferences. PACER leverages preference-conditioned learning to adaptively model terrain traversability, enabling robots to navigate complex environments in accordance with user-defined criteria.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- PAPER 3 -->
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="paper-thumb">
+                    <img src="images/visloc_img1.png" alt="main preview">
+                    <img class="overlay" src="images/visloc_img2.png" alt="hover overlay">
+                </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <span class="papertitle">Semantic Masking and Visual Feature Matching for Robust Localization</span>
+                  <br><b>Luisa Mao</b>, Ryan Soussan, Brian Coltin, Trey Smith, Joydeep Biswas<br>
+                  <em>ISPARO</em>, 2024<br>
+                  <a href="https://arxiv.org/abs/2411.01804">PDF</a>
+                  <!-- <a href="#">Project Page</a> -->
+                  <p></p>
+                  <p>
+                    Visual localization methods that rely on feature matching often fail in environments with significant appearance changes. We propose a method that uses semantic segmentation to mask out dynamic or unreliable regions in images, improving the robustness of feature matching for localization.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- PAPER 4 -->
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="paper-thumb">
+                    <img src="images/socialnav_img1.png" alt="main preview">
+                    <img class="overlay" src="images/socialnav_img2.png" alt="hover overlay">
+                </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <span class="papertitle">Targeted Learning: A Hybrid Approach to Social Robot Navigation</span>
+                  <br>Amir Hossain Raj, Zichao Hu, Haresh Karnan, Rohan Chandra, Amirreza Payandeh, <b>Luisa Mao</b>, Peter Stone, Joydeep Biswas,
+Xuesu Xiao<br>
+                  <em>ICRA</em>, 2024<br>
+                  <a href="https://arxiv.org/abs/2309.13466">PDF</a> /
+                  <a href="https://lnkd.in/g6btMZhw">Video</a>
+                  <p></p>
+                  <p>
+                    We find that geometric systems can produce trajectory plans that align with the human demonstrations in a large number of social situations. We, therefore, rethink the social robot navigation problem by leveraging the advantages of both geometric and learning-based methods.
+                  </p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <!-- PROJECTS SECTION -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;
+                margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:16px;width:100%;vertical-align:middle">
+                  <h2>Projects</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table style="width:100%;border:0px;border-spacing:0px 6px;border-collapse:separate;
+                margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr>
+                <td style="padding:8px;">
+                  <strong>Frodobots Earth Rovers Challenge @ IROS 2024</strong><br>
+                  <a href="https://cs.gmu.edu/~xiao/papers/erc2024.pdf">PDF</a>
+                  <p style="margin:0;">I participated with the UT Austin team on an open-world navigation challenge held at IROS in 2024. </p>
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:8px;">
+                  <strong>BARN Challenge @ ICRA 2023</strong><br>
+                  <a href="https://ieeexplore.ieee.org/document/10355540">PDF</a>
+                  <p style="margin:0;">I made a navigation stack for the Clearpath Jackal and got to attend a competition at ICRA in London in 2023.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:8px;">
+                  <strong>Autonomous Driving Navigation Stack for CS393R in Fall 2023</strong><br>
+                  <a href="https://github.com/Sunlost/cs393r-project">Code</a>
+                  <p style="margin:0;">An autonomous navigation and control stack for F1/10 race cars from the CS393R graduate class at UT Austin.</p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <!-- MORE SECTION -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;
+                margin-right:auto;margin-left:auto;">
+            <tbody>
+                <!-- <tr>
+                <td style="padding:16px;width:100%;vertical-align:middle;text-align:center;">
+                    <h2>More</h2>
+                    <p>
+                    Check out additional news, awards, and miscellaneous updates:
+                    </p>
+                    <p>
+                    <a href="more.html">See more →</a>
+                    </p>
+                </td>
+                </tr> -->
+              <tr>
+                <td style="padding:16px;width:100%;vertical-align:middle">
+                  <h2>More</h2> <a href="more.html">See more →</a>
+                </td>
+              </tr>
+
+            </tbody>
+            </table>
+
+
+          <br>
+          <footer style="text-align:center;padding:10px;color:#999;">
+            © 2025 Luisa Mao
+          </footer>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".abstract-box").forEach(box => {
+      box.addEventListener("click", () => {
+        box.classList.toggle("expanded");
+      });
+    });
+  });
+</script>
+
+
+
+</body>
+
+</html>
